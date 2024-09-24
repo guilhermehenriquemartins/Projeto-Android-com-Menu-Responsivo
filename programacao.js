@@ -30,3 +30,13 @@ function burguer() {
     itens.style.display = 'block'
   }
 }
+
+function mudouTamanho() {
+  if (window.innerWidth >= 768) {
+    menu.style.display = 'none'
+    itens.style.display = 'block'
+  } else {
+    menu.style.display = 'block'
+    itens.style.display = 'none'
+  }
+}

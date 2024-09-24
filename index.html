@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="estilos/first.css">
+  <link rel="stylesheet" href="estilos/geral.css">
   <title>Curiosidades de Tecnologia</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
   <header>
     <h1>Curiosidades de Tecnologia</h1>
     <p>Tudo aquilo que você sempre quis saber sobre o <br> mundo Tech, em um único lugar</p>
@@ -15,12 +16,14 @@
 
   <span id="burguer" class="material-icons" onmouseenter="entrou()" onmousedown="clicou()" onmouseout="saiu()" onmousemove="moveu()" onclick="burguer()">menu</span>
 
-  <menu id="items">
-    <a href="#">Home</a>
-    <a href="#">Notícias</a>
-    <a href="#">Curiosidades</a>
-    <a href="#">Fale Conosco</a>
-  </menu>
+  <div id="limitador">
+    <menu id="items">
+      <a href="#">Home</a>
+      <a href="#">Notícias</a>
+      <a href="#">Curiosidades</a>
+      <a href="#">Fale Conosco</a>
+    </menu>
+  </div>
 
   <main>
     <h1>História do Mascote do Android</h1>

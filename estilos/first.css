@@ -94,11 +94,6 @@ main h2 {
   padding: 2px;
 }
 
-main a {
-  padding: 3px 5px;
-  border-radius: 20px;
-}
-
 main a:hover {
   background-color: #2FA866;
   color: white;
@@ -187,6 +182,11 @@ aside a {
   text-decoration: none;
   font-weight: bold;
   color: #174f30;
+}
+
+aside a:hover {
+  background-color: #2FA866;
+  color: white;
 }
 
 aside a::after {
